@@ -1,0 +1,38 @@
+.filas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .filas {
+    border: 2px solid #f76707;
+    border-radius: 5px;
+    background-color: #fff4e6;
+  }
+  
+  .filas > div {
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1em;
+    color: #d9480f;
+  }
+  
+  .filas {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  
+  .filas {
+    display: grid;
+    grid-template-columns: 500px 1fr 2fr;
+  }
+  
+
+  ion-col{
+    background-color: #ffd8a8;
+    border: solid 1px black;
+  }
